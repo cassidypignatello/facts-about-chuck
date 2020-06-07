@@ -3,9 +3,9 @@ import './App.css'
 import Header from './components/Header'
 
 const App = () => (
-  <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-    <div className="text-center mt-3">
-      <Header />
+  <div className="max-w-7xl mx-auto h-screen pt-20 flex justify-center bg-gray-200">
+    <div className="text-center">
+      <Header title={'Facts About Chuck'} />
       <p className="text-base text-gray-700 leading-normal">
         Building apps together
       </p>

@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 
-const Header = () => (
+const Header = ({ title }) => (
   <Fragment>
     <header>
-      <h1 className="text-2xl text-blue-700 leading-tight">
-        Facts About Chuck
+      <h1 className="font-header text-4xl text-red-700 font-semibold leading-tight">
+        {title}
       </h1>
     </header>
   </Fragment>
