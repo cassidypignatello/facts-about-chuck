@@ -1,19 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Header from './components/Header'
 
 const App = () => (
-  <div className="max-w-md mx-auto flex p-6 bg-gray-100 mt-10 rounded-lg shadow-xl">
-    <div className="ml-6 pt-1">
-      <header>
-        <h1 className="text-2xl text-blue-700 leading-tight">
-          Facts About Chuck
-        </h1>
-      </header>
+  <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+    <div className="text-center mt-3">
+      <Header />
       <p className="text-base text-gray-700 leading-normal">
         Building apps together
       </p>
     </div>
   </div>
-);
+)
 
-export default App;
+export default App
